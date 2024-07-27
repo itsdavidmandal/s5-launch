@@ -1,0 +1,142 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+CU:wght@100..400&display=swap'); */
+
+.container-project{
+    position: relative;
+    top: 20px;
+    
+
+    font-family: __Manrope_da1155, __Manrope_Fallback_da1155, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    
+}
+
+.title-projects{
+    /* position: absolute;
+    top:450px; */
+    
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10px;
+
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+
+    padding: 10px;
+    
+}
+
+
+.hr-up-project{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (optional) */
+    /* height: 100px; Example height for container */
+ }
+
+ .hr-under-project{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (optional) */
+    /* height: 100px; Example height for container */
+ }
+
+ hr {
+    position: relative;
+    margin-top: 10px;
+    width: 90%; /* Adjust width as needed */
+    border: none;
+    border-top: 2px solid black; /* Ebxample border style */
+ }
+
+ .img-project img{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+    
+
+ }
+
+ .img-project{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+ }
+
+
+ .img-details-text{
+    position: relative;
+    top: 20px;
+    
+    width: 70%;
+
+ }
+
+ .img-detail-felx{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+ }
+
+
+ .project-title-flex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+ 
+ }
+
+ .project-title-main{
+    position: relative;
+    margin-top: 60px;
+    font-size: 28px;
+    font-weight: 500;
+ }
+
+
+ /* Fade-in animation */
+@keyframes fadeIn {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+ }
+ 
+ /* Pan animation for text */
+ @keyframes panText {
+   from {
+     transform: translateX(-100%);
+   }
+   to {
+     transform: translateX(0);
+   }
+ }
+ 
+ /* Pan animation for image */
+ @keyframes panImage {
+   from {
+     transform: translateX(100%);
+   }
+   to {
+     transform: translateX(0);
+   }
+ }
+ 
+
+

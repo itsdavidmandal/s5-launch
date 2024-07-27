@@ -1,0 +1,58 @@
+
+  
+  .head {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 100%;
+    /* max-width: 400px; */
+    height: 100px; /* Ensure there's a height */
+    position: absolute;
+    top: 25px;
+    
+
+
+  }
+  
+  .text {
+    display: inline-block;
+    font-size: 24px;
+    
+    white-space: nowrap;
+    padding: 10px;
+    animation: slide-left-right 1s ease forwards; /* Run animation once and stop */
+    font-family: __Manrope_da1155, __Manrope_Fallback_da1155, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+
+}
+  
+/* @keyframes slide-left-right {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0); /* End at the starting position */
+    /* }
+  } */ 
+
+  .paragraph-heading{
+    /* z-index: 5; */
+    
+    opacity: 1;
+    /* background-color: red; */
+    padding: 20px;
+    border-radius: 25px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px, rgba(175, 138, 249, 0.32) 0px 2px 16px 0px;
+}
+
+
+
+
+

@@ -1,0 +1,171 @@
+.intro-container{
+     margin-top: 150px;
+     font-family: __Manrope_da1155, __Manrope_Fallback_da1155, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 16px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+
+     
+}
+
+
+ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.column{
+    width: 45%;
+    padding: 0 15px;
+}
+
+.column h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    /* background-color: red; */
+}
+
+/* .column img{
+    align-items: center;
+} */
+
+.column img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+
+}
+
+
+
+.column h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #844EF3;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.column ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.column{
+    display: inline-block;
+}
+
+@media(max-width:767px){
+    .column{
+        width: 90%;
+        margin-bottom: 30px;
+        margin: 10px;
+        height: auto;
+
+    }
+    .column img{
+        width: 90%;
+        height: auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:388px){
+    .column{
+        width: 100%;
+        margin-bottom: 30px;
+        margin: 10px;
+        height: auto;
+
+    }
+    .column img{
+        width: 95%;
+        height: auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:326px){
+    .column{
+        width: 100%;
+        margin-bottom: 30px;
+        margin: 10px;
+        height: auto;
+
+    }
+    .column img{
+        width: 95%;
+        height: auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Pan animations */
+  @keyframes panFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes panFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations to specific classes */
+  .fade-in {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .pan-from-right {
+    animation: panFromRight 2s ease-in-out;
+  }
+  
+  .pan-from-left {
+    animation: panFromLeft 2s ease-in-out;
+  }
+  
+
+
+
