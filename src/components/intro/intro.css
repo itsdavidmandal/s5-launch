@@ -155,15 +155,15 @@ ul{
   
   /* Apply animations to specific classes */
   .fade-in {
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
   }
   
   .pan-from-right {
-    animation: panFromRight 2s ease-in-out;
+    animation: panFromRight 0.5s ease-in-out;
   }
   
   .pan-from-left {
-    animation: panFromLeft 2s ease-in-out;
+    animation: panFromLeft 0.5s ease-in-out;
   }
   
 

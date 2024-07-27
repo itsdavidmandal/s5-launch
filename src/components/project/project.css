@@ -107,36 +107,7 @@
     font-weight: 500;
  }
 
-
- /* Fade-in animation */
-@keyframes fadeIn {
-   from {
-     opacity: 0;
-   }
-   to {
-     opacity: 1;
-   }
- }
- 
- /* Pan animation for text */
- @keyframes panText {
-   from {
-     transform: translateX(-100%);
-   }
-   to {
-     transform: translateX(0);
-   }
- }
- 
- /* Pan animation for image */
- @keyframes panImage {
-   from {
-     transform: translateX(100%);
-   }
-   to {
-     transform: translateX(0);
-   }
- }
+/*  */
  
 
 

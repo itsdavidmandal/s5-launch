@@ -6,6 +6,7 @@ import Project from './components/project/Project'
 import Mywork from './components/list/Mywork'
 import Feedback from './components/feedback/Feedback'
 import StartCanvas from "./Stars";
+import Reflection from './components/reflections/Reflection'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Intro/>
       <Project/>
       <Mywork/>
+      <Reflection/>
       <Feedback/>
 
       

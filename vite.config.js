@@ -12,8 +12,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: "/s5-launch",
   plugins: [react()],
-  base:"/s5-launch/",
   resolve: {
     alias: {
       '@': '/src',
